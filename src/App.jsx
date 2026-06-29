@@ -101,7 +101,7 @@ const App = () => {
 
       {/* Main Content */}
       <div className="flex-1 flex flex-col items-center min-h-screen mt-16 p-6 animate-fade-in-up">
-        <h1 className="text-5xl font-extrabold tracking-tight ml-2 w-full text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400 drop-shadow-sm">Homify</h1>
+        <h1 className="text-5xl font-extrabold tracking-tight ml-2 w-full text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400 drop-shadow-sm">HomeDec</h1>
         <p className="text-gray-300 text-lg mb-6 mt-2 ml-2 w-full font-medium">
           Welcome, {userName}!
         </p>
@@ -134,11 +134,11 @@ const App = () => {
         {/* About Section */}
         <br id="about" />
         <p className="text-white font-semibold text-3xl mb-6 mt-12 ml-2 w-full tracking-wide">
-          About Homify
+          About HomeDec
         </p>
         <div className="bg-white/10 backdrop-blur-xl border border-white/20 p-8 rounded-3xl shadow-2xl w-full max-w-4xl transition-all duration-300 hover:shadow-indigo-500/10">
           <div className="text-gray-200 text-lg leading-relaxed font-light">
-            <strong className="text-white font-semibold">Homify</strong> is a smart home automation project that
+            <strong className="text-white font-semibold">HomeDec</strong> is a smart home automation project that
             empowers users to control and monitor devices like lights, fans, and
             ACs remotely. Built using <strong className="text-indigo-300">IoT technology</strong> and a{" "}
             <strong className="text-indigo-300">Raspberry Pi</strong>, it offers real-time interaction with
