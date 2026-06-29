@@ -1,8 +1,8 @@
-# 🏠 Homify
+# 🏠 HomeDec
 
-[Live Demo 🚀](https://smart-homify.netlify.app/)
+[Live Demo 🚀](https://homedec31.vercel.app/)
 
-Smart Homify is an intuitive smart home automation dashboard that lets users control and monitor their IoT-enabled home devices in real-time. From smart lights to fans and air conditioning, this dashboard provides a seamless way to manage your home with ease — all in one place.
+Smart HomeDec is an intuitive smart home automation dashboard that lets users control and monitor their IoT-enabled home devices in real-time. From smart lights to fans and air conditioning, this dashboard provides a seamless way to manage your home with ease — all in one place.
 
 ---
 
@@ -50,7 +50,7 @@ In this project, data is fetched and synced using the modern Firebase Modular SD
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/mkj-1901/smart-homify.git
-   cd homify
+   cd homedec
    ```
 
 2. **Install dependencies:**
