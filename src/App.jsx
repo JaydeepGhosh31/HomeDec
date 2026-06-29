@@ -94,8 +94,8 @@ const App = () => {
 
       {/* Logo at Top Left */}
       <div className="absolute top-6 left-6 z-50">
-        <div className="bg-white/10 backdrop-blur-md p-2 rounded-2xl shadow-lg border border-white/20 hover:bg-white/20 transition-colors duration-300">
-          <img src="/logo.webp" alt="App Logo" className="h-10 w-10 object-contain drop-shadow-md" />
+        <div className="bg-white/80 backdrop-blur-xl p-3 rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.5)] border border-white/50 hover:bg-white hover:scale-105 transition-all duration-300">
+          <img src="/logo.webp" alt="App Logo" className="h-12 w-12 sm:h-14 sm:w-14 object-contain" />
         </div>
       </div>
 
