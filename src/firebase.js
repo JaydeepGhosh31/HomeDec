@@ -2,14 +2,14 @@ import { initializeApp } from "firebase/app";
 import { getAuth, signInAnonymously } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.API_KEY,
+  apiKey: import.meta.env.VITE_API_KEY,
   authDomain: "homify-b7e27.firebaseapp.com",
   projectId: "homify-b7e27",
   storageBucket: "homify-b7e27.firebasestorage.app",
   messagingSenderId: "551969316175",
   appId: "1:551969316175:web:6037dec69787eaf4a4b93a",
   measurementId: "G-TGLSXRLNMY",
-  databaseURL: import.meta.env.DB_URL
+  databaseURL: import.meta.env.VITE_DB_URL
 };
 
 export const app = initializeApp(firebaseConfig);
